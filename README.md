@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Backend — Imersão BJJ Chapada Diamantina
 
 Backend Flask para gerenciar inscrições e validar pagamentos via Mercado Pago.
@@ -166,3 +167,9 @@ python app.py
 # ngrok http 5000
 # Use a URL gerada como APP_BASE_URL e configure no painel do MP
 ```
+=======
+Imersão BJJ Chapada Diamantina
+
+
+
+>>>>>>> 9cc74e95fa89fe2e6510e7ac1eb91af0d4c18829
