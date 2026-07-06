@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imersão BJJ Chapada Diamantina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav id="navbar">
+  <div class="logo">
+    alliance jiu jitsu
+    <span>Bahia · Brasil</span>
+  </div>
+  <ul id="nav-menu">
+    <li><a href="#sobre">A Imersão</a></li>
+    <li><a href="#programacao">Programação</a></li>
+    <li><a href="#incluso">O que inclui</a></li>
+    <li><a href="#inscricao" class="nav-cta">Inscreva-se</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<section class="hero" id="hero">
+
+  <div class="carousel-track" id="carousel-track">
+
+    <!-- SLIDE 1 -->
+    <div class="carousel-slide">
+      <div class="carousel-bg carousel-bg-1"></div>
+      <div class="carousel-overlay"></div>
+      <svg class="hero-shapes" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,0 300,0 0,300" fill="rgba(201,162,39,0.04)"/>
+        <polygon points="1440,900 1140,900 1440,600" fill="rgba(61,122,82,0.08)"/>
+        <polygon points="720,50 800,200 640,200" fill="none" stroke="rgba(201,162,39,0.12)" stroke-width="1"/>
+        <circle cx="200" cy="700" r="200" fill="none" stroke="rgba(61,122,82,0.08)" stroke-width="1"/>
+        <circle cx="1300" cy="200" r="150" fill="none" stroke="rgba(201,162,39,0.06)" stroke-width="1"/>
+      </svg>
+      <div class="hero-content">
+        <div class="hero-eyebrow">Imersão BJJ · Chapada Diamantina</div>
+        <h1>Arte.<em>Natureza.</em>Evolução.</h1>
+        <p class="hero-subtitle">
+          4 dias de treino intensivo com natureza selvagem, cultura da Bahia profunda e a energia única do Capão — para quem leva o jiu-jitsu como estilo de vida.
+        </p>
+        <div class="hero-badges">
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 18a8 8 0 110-16 8 8 0 010 16zm.5-11V7h-1v4l3.5 2.1.5-.9L12.5 11z"/></svg>
+            10 a 13 de Julho de 2025
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            Vale do Capão, BA
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            Vagas limitadas
+          </div>
+        </div>
+        <div class="hero-cta-group">
+          <a href="#inscricao" class="btn-primary">Garantir minha vaga</a>
+          <a href="#programacao" class="btn-outline">Ver programação</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="carousel-slide">
+      <div class="carousel-bg carousel-bg-2"></div>
+      <div class="carousel-overlay"></div>
+      <svg class="hero-shapes" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,900 300,900 0,600" fill="rgba(201,162,39,0.05)"/>
+        <polygon points="1440,0 1140,0 1440,300" fill="rgba(61,122,82,0.07)"/>
+        <circle cx="720" cy="450" r="300" fill="none" stroke="rgba(201,162,39,0.07)" stroke-width="1"/>
+      </svg>
+      <div class="hero-content">
+        <div class="hero-eyebrow">Treino & Natureza</div>
+        <h1>Chapada<em>Diamantina.</em></h1>
+        <p class="hero-subtitle">
+          Desperte o guerreiro em você em um dos cenários mais deslumbrantes da Bahia. Cachoeiras, trilhas e tatame.
+        </p>
+        <div class="hero-badges">
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 18a8 8 0 110-16 8 8 0 010 16zm.5-11V7h-1v4l3.5 2.1.5-.9L12.5 11z"/></svg>
+            Alliance Jiu Jitsu
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+            Bahia · Brasil
+          </div>
+        </div>
+        <div class="hero-cta-group">
+          <a href="#inscricao" class="btn-primary">Garantir minha vaga</a>
+          <a href="#sobre" class="btn-outline">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+    <
+    <div class="carousel-slide">
+      <div class="carousel-bg carousel-bg-3"></div>
+      <div class="carousel-overlay"></div>
+      <svg class="hero-shapes" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="720,0 820,180 620,180" fill="none" stroke="rgba(201,162,39,0.15)" stroke-width="1"/>
+        <polygon points="720,0 820,180 620,180" fill="none" stroke="rgba(201,162,39,0.07)" stroke-width="1" transform="translate(0,15)"/>
+        <line x1="0" y1="450" x2="1440" y2="450" stroke="rgba(201,162,39,0.04)" stroke-width="1"/>
+        <circle cx="100" cy="800" r="180" fill="none" stroke="rgba(61,122,82,0.09)" stroke-width="1"/>
+      </svg>
+      <div class="hero-content">
+        <div class="hero-eyebrow">Alliance Jiu Jitsu · Bahia</div>
+        <h1>Corpo.<em>Mente.</em>Tatame.</h1>
+        <p class="hero-subtitle">
+          Uma experiência transformadora para quem leva o jiu-jitsu como estilo de vida. Para todos os níveis, faixa branca à roxa.
+        </p>
+        <div class="hero-badges">
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            4 dias imersivos
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 18a8 8 0 110-16 8 8 0 010 16zm.5-11V7h-1v4l3.5 2.1.5-.9L12.5 11z"/></svg>
+            Para todos os níveis
+          </div>
+        </div>
+        <div class="hero-cta-group">
+          <a href="#inscricao" class="btn-primary">Garantir minha vaga</a>
+          <a href="#programacao" class="btn-outline">Ver programação</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <button class="carousel-arrow carousel-arrow-left" id="carousel-prev" aria-label="Slide anterior">&#8249;</button>
+  <button class="carousel-arrow carousel-arrow-right" id="carousel-next" aria-label="Próximo slide">&#8250;</button>
+
+  
+  <div class="carousel-controls">
+    <button class="carousel-dot active" data-index="0" aria-label="Slide 1"></button>
+    <button class="carousel-dot" data-index="1" aria-label="Slide 2"></button>
+    <button class="carousel-dot" data-index="2" aria-label="Slide 3"></button>
+    <button class="carousel-pause" id="carousel-pause" aria-label="Pausar carrossel">
+      <svg id="pause-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+      <svg id="play-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" style="display:none"><polygon points="5,3 19,12 5,21"/></svg>
+    </button>
+  </div>
+
+ 
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0,45 C240,90 480,0 720,45 C960,90 1200,10 1440,45 L1440,90 L0,90 Z" fill="#111a14"/>
+    </svg>
+  </div>
+
+</section>
+
+
+<section class="sobre" id="sobre">
+  <div class="section-inner">
+    <div class="sobre-grid">
+      <div class="sobre-texto">
+        <p class="section-label">A Experiência</p>
+        <h2>Treino com<br>alma baiana</h2>
+        <p>O Vale do Capão, no coração da Chapada Diamantina, é um dos lugares mais energéticos do Brasil. Cercado por cachoeiras, montanhas vermelhas e um silêncio que poucos lugares oferecem — é aqui que a sua jornada no jiu-jitsu vai ganhar um novo significado.</p>
+        <p>Mais do que uma excursão, essa é uma imersão completa: treinos técnicos pela manhã, natureza à tarde, e convivência com uma comunidade que compartilha do mesmo propósito.</p>
+        <p>Seja você faixa branca ou roxa, esse é o seu momento de evoluir corpo e mente.</p>
+      </div>
+      <div class="sobre-stats">
+        <div class="stat-box">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Dias de imersão</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">8+</span>
+          <span class="stat-label">Horas de treino</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Cachoeiras no roteiro</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">24</span>
+          <span class="stat-label">Vagas disponíveis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="programacao" id="programacao">
+  <div class="section-inner">
+    <p class="section-label">Cronograma</p>
+    <h2>4 dias na<br>Chapada</h2>
+    <div class="cronograma">
+      <div class="dia">
+        <div class="dia-header">
+          <span class="dia-num">01</span>
+          <span class="dia-nome">Qui · 10/Set</span>
+        </div>
+        <div class="dia-conteudo">
+          <p class="dia-titulo">Chegada e Abertura</p>
+          <div class="atividades">
+            <span class="atividade-tag">Translado do aeroporto</span>
+            <span class="atividade-tag">Check-in na pousada</span>
+            <span class="atividade-tag">Treino de abertura</span>
+            <span class="atividade-tag">Jantar coletivo</span>
+            <span class="atividade-tag">Boas-vindas</span>
+          </div>
+        </div>
+      </div>
+      <div class="dia">
+        <div class="dia-header">
+          <span class="dia-num">02</span>
+          <span class="dia-nome">Sex · 11/Set</span>
+        </div>
+        <div class="dia-conteudo">
+          <p class="dia-titulo">Técnica e Natureza</p>
+          <div class="atividades">
+            <span class="atividade-tag">Treino técnico (manhã)</span>
+            <span class="atividade-tag">Cachoeira do Riachinho</span>
+            <span class="atividade-tag">Almoço local</span>
+            <span class="atividade-tag">Drilling à tarde</span>
+            <span class="atividade-tag">Roda de conversa</span>
+          </div>
+        </div>
+      </div>
+      <div class="dia">
+        <div class="dia-header">
+          <span class="dia-num">03</span>
+          <span class="dia-nome">Sáb · 12/Set</span>
+        </div>
+        <div class="dia-conteudo">
+          <p class="dia-titulo">Sparring e Trilha</p>
+          <div class="atividades">
+            <span class="atividade-tag">Open mat / Sparring</span>
+            <span class="atividade-tag">Trilha no Morrão</span>
+            <span class="atividade-tag">Banho de cachoeira</span>
+            <span class="atividade-tag">Churrasco coletivo</span>
+            <span class="atividade-tag">Noite cultural</span>
+          </div>
+        </div>
+      </div>
+      <div class="dia">
+        <div class="dia-header">
+          <span class="dia-num">04</span>
+          <span class="dia-nome">Dom · 13/Set</span>
+        </div>
+        <div class="dia-conteudo">
+          <p class="dia-titulo">Encerramento</p>
+          <div class="atividades">
+            <span class="atividade-tag">Treino de fechamento</span>
+            <span class="atividade-tag">Entrega de certificados</span>
+            <span class="atividade-tag">Almoço de encerramento</span>
+            <span class="atividade-tag">Check-out e partidas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="incluso" id="incluso">
+  <div class="section-inner">
+    <p class="section-label">Pacote completo</p>
+    <h2>Tudo que<br>está incluso</h2>
+    <div class="incluso-grid">
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        </div>
+        <h3>Hospedagem</h3>
+        <p>3 noites em pousada no coração do Vale do Capão, em quarto compartilhado (opção privativo disponível).</p>
+      </div>
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <h3>Alimentação</h3>
+        <p>Café da manhã e jantar nos 4 dias. Almoços nos dias 2 e 4. Cardápio regional baiano.</p>
+      </div>
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Treinos e instrução</h3>
+        <p>Todas as sessões de jiu-jitsu com professor faixa preta. Turma máxima de 20 alunos.</p>
+      </div>
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 17l2-10 7 4 7-4 2 10"/><path d="M12 11v10"/></svg>
+        </div>
+        <h3>Passeios na Chapada</h3>
+        <p>Visitas guiadas às cachoeiras e trilhas do Capão. Transporte local entre os pontos.</p>
+      </div>
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><rect x="1" y="3" width="22" height="18" rx="2" ry="2"/><path d="M8 21V3M16 21V3"/></svg>
+        </div>
+        <h3>Certificado</h3>
+        <p>Certificado de participação na Imersão BJJ Chapada Diamantina 2025.</p>
+      </div>
+      <div class="incluso-card">
+        <div class="incluso-icon">
+          <svg viewBox="0 0 24 24"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+        </div>
+        <h3>Cobertura fotográfica</h3>
+        <p>Fotos e vídeos dos treinos e passeios. Acesso ao álbum digital após o evento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="instrutor" id="instrutor">
+  <div class="section-inner">
+    <p class="section-label">Quem vai conduzir</p>
+    <h2>Seu professor<br>na imersão</h2>
+    <div class="instrutor-grid">
+      <div class="instrutor-foto">
+        <div style="text-align:center; padding: 1rem;">
+          <svg viewBox="0 0 80 80" width="60" height="60" style="opacity:0.2; margin-bottom:0.5rem">
+            <circle cx="40" cy="30" r="20" fill="none" stroke="white" stroke-width="2"/>
+            <path d="M10,75 Q40,55 70,75" fill="none" stroke="white" stroke-width="2"/>
+          </svg>
+          <p style="font-size:0.7rem; letter-spacing:0.15em; opacity:0.4;">FOTO DO PROFESSOR</p>
+        </div>
+      </div>
+      <div>
+        <span class="faixa-badge">⬛ Faixa Preta</span>
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:2.5rem; letter-spacing:0.05em; color:var(--creme); margin-bottom:1rem;">Nome do Professor</h3>
+        <p class="instrutor-bio">Professor com mais de 15 anos de experiência no jiu-jitsu, formado pela [academia], com passagens por campeonatos nacionais e internacionais. Referência no ensino técnico e na abordagem humanizada do esporte.</p>
+        <p class="instrutor-bio" style="margin-top:1rem;">Filho da Bahia e apaixonado pela Chapada Diamantina, o professor já conduziu mais de 10 imersões na região, unindo o melhor da técnica com a riqueza do território baiano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="inscricao" id="inscricao">
+  <div class="section-inner">
+    <div class="inscricao-grid">
+      <div>
+        <p class="section-label">Garanta sua vaga</p>
+        <h2>Invista na<br>sua evolução</h2>
+        <div class="preco-destaque">
+          <p class="preco-de">De R$ 1.890</p>
+          <p class="preco-por">R$ 1.490</p>
+          <p class="preco-parcela">ou 6x de R$ 248,33 sem juros no cartão</p>
+        </div>
+        <ul class="lista-incluso" style="margin-top: 1.5rem;">
+          <li>Hospedagem por 3 noites (quarto compartilhado)</li>
+          <li>Alimentação inclusa (café, almoço e jantar)</li>
+          <li>Todos os treinos e sessões com o professor</li>
+          <li>Passeios e trilhas guiadas</li>
+          <li>Transporte local no Vale do Capão</li>
+          <li>Certificado de participação</li>
+          <li>Álbum fotográfico digital</li>
+        </ul>
+        <p style="margin-top:1.5rem; font-size:0.8rem; color:rgba(245,240,232,0.45); line-height:1.6;">
+          * Translado aéreo e passagens não incluídas.<br>
+          * Quarto privativo disponível com acréscimo de R$ 300.
+        </p>
+      </div>
+
+      <div class="form-inscricao" id="form-container">
+        <p class="form-titulo">Ficha de inscrição</p>
+        <div id="form-fields">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nome completo <span class="req">*</span></label>
+              <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+              <label>Apelido / Nickname</label>
+              <input type="text" id="apelido" placeholder="Como te chamam no tatame">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>E-mail <span class="req">*</span></label>
+              <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label>WhatsApp <span class="req">*</span></label>
+              <input type="tel" id="whatsapp" placeholder="(00) 90000-0000" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Cidade de origem <span class="req">*</span></label>
+              <input type="text" id="cidade" placeholder="Salvador, BA" required>
+            </div>
+            <div class="form-group">
+              <label>Graduação <span class="req">*</span></label>
+              <select id="graduacao" required>
+                <option value="" disabled selected>Selecione</option>
+                <option>Faixa Branca</option>
+                <option>Faixa Cinza</option>
+                <option>Faixa Amarela</option>
+                <option>Faixa Laranja</option>
+                <option>Faixa Verde</option>
+                <option>Faixa Azul</option>
+                <option>Faixa Roxa</option>
+                <option>Faixa Marrom</option>
+                <option>Faixa Preta</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Academia que treina</label>
+              <input type="text" id="academia" placeholder="Nome da academia">
+            </div>
+            <div class="form-group">
+              <label>Tipo de quarto</label>
+              <select id="quarto">
+                <option value="compartilhado">Compartilhado (incluso)</option>
+                <option value="privativo">Privativo (+R$ 300)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Restrições alimentares ou de saúde</label>
+            <textarea id="restricoes" placeholder="Ex: vegetariano, alergia a glúten, lesão no joelho..."></textarea>
+          </div>
+
+          <hr class="form-divider">
+
+          <p class="pagamento-titulo">
+            <svg viewBox="0 0 24 24" width="18" height="18" style="stroke:var(--ouro);fill:none;stroke-width:1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            Forma de pagamento
+          </p>
+
+          <div class="pagamento-opcoes">
+            <div class="pag-opcao">
+              <input type="radio" name="pagamento" id="pag-cartao" value="cartao" checked>
+              <label for="pag-cartao">
+                <svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                Cartão
+              </label>
+            </div>
+            <div class="pag-opcao">
+              <input type="radio" name="pagamento" id="pag-pix" value="pix">
+              <label for="pag-pix">
+                <svg viewBox="0 0 24 24"><path d="M7.5 12L12 7.5 16.5 12 12 16.5z"/><path d="M4 12L12 4 20 12 12 20z" stroke-dasharray="3,2"/></svg>
+                PIX
+              </label>
+            </div>
+            <div class="pag-opcao">
+              <input type="radio" name="pagamento" id="pag-boleto" value="boleto">
+              <label for="pag-boleto">
+                <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16M4 7v10M8 7v10M16 7v10M20 7v10"/></svg>
+                Boleto
+              </label>
+            </div>
+          </div>
+
+          <div class="gateway-placeholder" id="gateway-area">
+            <svg viewBox="0 0 24 24" style="display:block;margin:0 auto 0.5rem"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <strong style="color:rgba(245,240,232,0.5); font-size:0.85rem;">Área de pagamento</strong><br>
+            Gateway de pagamento será integrado aqui.<br>
+            <span style="font-size:0.72rem; opacity:0.7;">(Stripe, Mercado Pago, PagSeguro, etc.)</span>
+          </div>
+
+          <button class="btn-submit" onclick="handleSubmit()">
+            Confirmar inscrição →
+          </button>
+          <p class="form-aviso">🔒 Seus dados estão seguros. Você receberá a confirmação por e-mail e WhatsApp.</p>
+        </div>
+
+        <div class="success-msg" id="success-msg">
+          <div class="success-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#c9a227" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+          </div>
+          <h3 style="font-family:'Bebas Neue',sans-serif; font-size:2rem; letter-spacing:0.05em; color:var(--creme); margin-bottom:0.75rem;">Inscrição enviada!</h3>
+          <p style="color:rgba(245,240,232,0.65); font-size:0.9rem; line-height:1.7;">Obrigado, <strong id="nome-confirmacao" style="color:var(--ouro)"></strong>!<br>Você receberá uma confirmação no e-mail e WhatsApp em até 24h.</p>
+          <p style="margin-top:1rem; color:rgba(245,240,232,0.4); font-size:0.8rem;">Dúvidas? Fale com a gente no WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">alliance jiu jitsu</div>
+  <p style="color:rgba(245,240,232,0.4); font-size:0.85rem; margin-top:0.25rem;">Imersão Chapada Diamantina · Setembro 2026</p>
+  <div class="footer-contato">
+    <a href="https://wa.me/5571999999999">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="rgba(245,240,232,0.5)"><path d="M17.47 14.38c-.32-.16-1.9-.94-2.2-1.05-.29-.1-.5-.16-.71.16-.21.32-.82 1.05-.99 1.26-.18.22-.36.24-.67.08-.32-.16-1.34-.5-2.54-1.58-.94-.84-1.57-1.88-1.76-2.2-.18-.32-.02-.5.14-.66.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.1-.21.05-.4-.02-.55-.07-.16-.71-1.7-.97-2.33-.25-.6-.51-.52-.71-.53-.18 0-.4-.02-.61-.02-.21 0-.55.08-.83.4-.29.32-1.1 1.07-1.1 2.61s1.12 3.03 1.28 3.24c.16.21 2.2 3.37 5.35 4.72.74.33 1.33.52 1.78.67.75.24 1.43.2 1.96.12.6-.09 1.85-.75 2.12-1.49.26-.73.26-1.35.18-1.49-.08-.13-.29-.2-.61-.36z"/><path d="M12.05 2C6.48 2 2 6.44 2 11.97c0 1.75.47 3.46 1.36 4.96L2 22l5.23-1.33A10.08 10.08 0 0012.05 22c5.57 0 9.95-4.44 9.95-9.97C22 6.44 17.62 2 12.05 2zm.02 18.22a8.34 8.34 0 01-4.24-1.16l-.3-.18-3.1.79.82-2.97-.2-.3a8.17 8.17 0 01-1.28-4.43c0-4.56 3.73-8.27 8.32-8.27 4.59 0 8.3 3.72 8.3 8.27-.01 4.55-3.74 8.25-8.32 8.25z"/></svg>
+      (71) 9 9999-9999
+    </a>
+    <a href="mailto:contato@academiaBJJ.com.br">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="rgba(245,240,232,0.5)" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      contato@alliancejj.com.br
+    </a>
+    <a href="#">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="rgba(245,240,232,0.5)" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      @alliancejj
+    </a>
+  </div>
+  <p class="footer-copy">© 2026 Alliance Jiu Jitsu. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
